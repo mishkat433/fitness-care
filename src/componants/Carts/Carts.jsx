@@ -20,7 +20,7 @@ const Carts = () => {
 
     }, [])
     return (
-        <div className='mt-7 grid grid-cols-3 gap-5'>
+        <div className='mt-7 grid grid-cols-1 lg:grid-cols-3 gap-5'>
             {
                 spinner && <img src={spin} alt="" />
             }

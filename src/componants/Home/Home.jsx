@@ -1,7 +1,9 @@
 import React from 'react';
 import Carts from '../Carts/Carts';
 import Header from '../Header/Header';
-import avatar from '../../images/Mishkat pp size.jpg'
+import avatar from '../../images/Mishkat pp size.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -19,7 +21,7 @@ const Home = () => {
                     <img className='w-14 h-14 rounded-full' src={avatar} alt="" />
                     <div>
                         <h4 className='text-lg font-semibold'>Mishkat</h4>
-                        <p> Cox's Bazar</p>
+                        <p className='text-gray-500'><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Cox's Bazar</p>
                     </div>
                 </div>
             </div>
