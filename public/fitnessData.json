@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Cardio Tradmill",
+        "details": "The treadmill is a hugely popular aerobic exercise machine. Aside from being a versatile cardio machine, a treadmill can help you lose weight if that’s your goal.",
+        "age": "20-25",
+        "time": 30,
+        "image": "https://cdn.horizonfitness.rocks/new-horizon-site/products/awards/treadmill-awards-bkgrnd-m.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Weight Bench",
+        "details": "A range of weight benches is available to suit different lifestyle needs and fitness goals. When choosing a weight bench, people may consider factors such as their experience level, comfort, available space, and budget.",
+        "age": "20-26",
+        "time": 25,
+        "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/e5f35d27b00112175c8eb7b5a14c5d0b006b1049/Foldable-Weight-Bench-For-Strength-Training-Body-Workout-Bench-For-Home-And-Gym.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fitness Ball",
+        "details": "An exercise ball—sometimes referred to as a stability ball or Swiss ball—is a classic piece of fitness equipment you can find in nearly every gym setting as well as Pilates and yoga studios,",
+        "age": "20-28",
+        "time": 22,
+        "image": "https://images.wisegeek.com/kid-in-green-shirt-on-pink-ball.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Squat Rack",
+        "details": "The squat rack is the centerpiece of just about every home and garage gym in the world. As such, it should be versatile, durable, useful, and fit the space it will be used in.",
+        "age": "25-40",
+        "time": 30,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/squat-rack-tips-1549881530.jpg?resize=480:*"
+    },
+    {
+        "id": 5,
+        "name": "Combo Weight",
+        "details": "CAP Barbell's Standard Combo Weight Bench with Leg extension and 90-pound Vinyl Weight Set is the perfect starter bench for those beginning strength training. Designed with a compact frame design and easy assembly,",
+        "age": "20-35",
+        "time": 26,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9xeqd4nYyvgMdh0qkb9Gucy0rNsKgDmTKw&usqp=CAU"
+    },
+    {
+        "id": 6,
+        "name": "Power Rack",
+        "details": "The squat rack is the centerpiece of just about every home and garage gym in the world. As such, it should be versatile, durable, useful, and fit the space it will be used in.",
+        "age": "20-25",
+        "time": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVZRF35pUS0m3VITJjnRIXaGb8ecyzymqng&usqp=CAU"
+    },
+    {
+        "id": 7,
+        "name": "Exercise Bike",
+        "details": "Indoor cycling is one of the most practiced activities in fitness centers for most people regardless of their physical conditioning level.",
+        "age": "20-25",
+        "time": 24,
+        "image": "https://pyxis.nymag.com/v1/imgs/4ad/9df/e584f33dfc288590ddee772855ad4d7e3f-schwinn-ic3-bike.2x.rsquare.w600.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Dumbbells",
+        "details": "The key to this will be purchasing a few integral pieces, like a set of dumbbells, to take your home workouts from drab to fab.",
+        "age": "20-25",
+        "time": 28,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcagSry2TC_30Ba-P975ZQ2ZPuGolVyBR6rA&usqp=CAU"
+    },
+    {
+        "id": 9,
+        "name": "Leg Curl",
+        "details": "The lying leg curl is a great exercise to isolate the hamstrings. Set up for the leg curl by selecting the weight you want to use on the stack and adjusting the padding to suit your leg length.",
+        "age": "20-25",
+        "time": 25,
+        "image": "https://cdn.shopify.com/s/files/1/1876/4703/articles/shutterstock_430434973_2829x.jpg?v=1587822776"
+    }
+]
