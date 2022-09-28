@@ -1,7 +1,8 @@
 import React from 'react';
 
 const SingleCart = (props) => {
-    const { name, image, details, age, time } = props.cart
+    const { cart, handleTime } = props
+    const { name, image, details, age, time } = cart
     return (
         <div>
             <div className="card  bg-orange-200 p-2 h-full">
@@ -11,7 +12,7 @@ const SingleCart = (props) => {
                     <p className='text-gray-600'>{details.slice(0, 80)}... </p>
                     <p className='font-bold my-2'>For-age : {age} </p>
                     <p className='font-bold'>Time-required : {time}s </p>
-                    <button className="btn  bg-orange-700 w-full mt-4">Add to List</button>
+                    <button className="btn  bg-orange-700 w-full mt-4" onClick={() => handleTime(time)}>Add to List</button>
 
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SingleCart from '../SingleCart/SingleCart';
 import spin from "../../images/spinner.gif"
 
-const Carts = () => {
+const Carts = ({ handleTime }) => {
     const [carts, setCarts] = useState([]);
     const [spinner, setSpinner] = useState(true)
     useEffect(() => {
@@ -25,7 +25,7 @@ const Carts = () => {
                 spinner && <img src={spin} alt="" />
             }
             {
-                carts.map(cart => <SingleCart cart={cart} key={cart.id} />)
+                carts.map(cart => <SingleCart cart={cart} key={cart.id} handleTime={handleTime} />)
             }
         </div>
     );

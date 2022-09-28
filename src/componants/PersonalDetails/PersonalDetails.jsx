@@ -7,9 +7,10 @@ const PersonalDetails = () => {
     return (
         <div>
             <div className="flex gap-3 items-center">
-                <img className='w-14 h-14 rounded-full' src={avatar} alt="" />
+                <img className='w-16 h-16 rounded-full' src={avatar} alt="" />
                 <div>
                     <h4 className='text-lg font-semibold'>Mishkat</h4>
+                    <p className='text-gray-500'>Web-developer</p>
                     <p className='text-gray-500'><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Cox's Bazar</p>
                 </div>
             </div>
