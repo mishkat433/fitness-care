@@ -13,7 +13,7 @@ const PersonalDetails = () => {
                     <p className='text-gray-500'><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Cox's Bazar</p>
                 </div>
             </div>
-            <div className='bg-orange-100 mt-10 flex p-4 justify-between rounded-xl'>
+            <div className='bg-orange-100 mt-5 flex p-4 justify-between rounded-xl'>
                 <div className=''>
                     <p><span className='text-3xl font-semibold'>68</span>kg</p>
                     <p>Weight</p>
