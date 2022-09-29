@@ -38,8 +38,8 @@ const Sidebar = ({ time, setTime }) => {
 
             </div>
 
-            <h1 className='text-xl lg:text-2xl font-semibold mt-5'>Exercise Details :</h1>
-            <div className='bg-orange-100 flex justify-between items-center p-4 text-md lg:text-xl rounded-xl my-4' >
+            <h1 className='text-xl lg:text-2xl font-semibold mt-4'>Exercise Details :</h1>
+            <div className='bg-orange-100 flex justify-between items-center p-4 text-md lg:text-xl rounded-xl my-3' >
                 <h5 > Exercise Time: </h5 >
                 <h5>{time} seconds</h5>
             </div>
@@ -47,7 +47,7 @@ const Sidebar = ({ time, setTime }) => {
                 <h5>Break Time : </h5>
                 <h5>{breaktime ? breaktime : localStorage.getItem("break-time")} seconds</h5>
             </div>
-            <button className="btn btn-active bg-orange-700 mt-10 w-full text-md lg:text-lg" onClick={toastify}>Activity Completed</button>
+            <button className="btn btn-active bg-orange-700 mt-5 w-full text-md lg:text-lg" onClick={toastify}>Activity Completed</button>
             <ToastContainer />
         </div >
     );

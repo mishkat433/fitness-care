@@ -5,9 +5,9 @@ import Question from '../Question/Question';
 import Sidebar from '../Sidebar/Sidebar';
 
 const Home = () => {
-    const [time, setTime] = useState(0)
+    const [time, setTime] = useState(0);
     const handleTime = (selectTime) => {
-        setTime(selectTime + time)
+        setTime(selectTime + time);
     }
 
     return (
@@ -19,7 +19,7 @@ const Home = () => {
                     <Question />
                 </div>
 
-                <div className='lg:w-1/4 bg-orange-200  p-3 lg:fixed lg:top-0 lg:right-0 h-full mt-8 lg:mt-0 rounded-xl lg:rounded-none'>
+                <div className='lg:w-1/4 bg-orange-200  p-3 lg:fixed lg:top-0 lg:right-0 h-full lg:h-[100vh] mt-8 lg:mt-0 rounded-xl lg:rounded-none'>
                     <PersonalDetails />
                     <Sidebar time={time} setTime={setTime} />
                 </div>
