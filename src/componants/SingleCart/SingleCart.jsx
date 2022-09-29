@@ -4,7 +4,7 @@ const SingleCart = (props) => {
     const { cart, handleTime } = props
     const { name, image, details, age, time } = cart
     return (
-        <div>
+        <div data-aos="zoom-out-up">
             <div className="card  bg-orange-200 p-2 h-full">
                 <figure><img className='w-full h-[250px] lg:h-[300px] rounded-xl' src={image} alt="Shoes" /></figure>
                 <div className="mt-4 px-2">

@@ -4,6 +4,7 @@ import PersonalDetails from '../PersonalDetails/PersonalDetails';
 import Question from '../Question/Question';
 import Sidebar from '../Sidebar/Sidebar';
 
+
 const Home = () => {
     const [time, setTime] = useState(0);
     const handleTime = (selectTime) => {
