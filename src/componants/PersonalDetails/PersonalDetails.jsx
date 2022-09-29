@@ -1,9 +1,10 @@
 import React from 'react';
 import avatar from '../../images/Mishkat pp size.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faSwimmer, faHiking, faDisplay } from '@fortawesome/free-solid-svg-icons';
 
 const PersonalDetails = () => {
+
     return (
         <div>
             <div className="flex gap-3 items-center">
@@ -14,18 +15,19 @@ const PersonalDetails = () => {
                     <p className='text-gray-500'><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Cox's Bazar</p>
                 </div>
             </div>
-            <div className='bg-orange-100 mt-5 flex p-2 lg:p-4 justify-between rounded-xl'>
+            <h4 className='text-xl lg:text-2xl mt-2 font-semibold'>Hobbies</h4>
+            <div className='bg-orange-100 mt-1 flex p-2 lg:p-4 justify-between rounded-xl'>
                 <div className=''>
-                    <p><span className='text-2xl lg:text-3xl font-semibold'>68</span>kg</p>
-                    <p>Weight</p>
+                    <p className='text-5xl text-center text-orange-700'><FontAwesomeIcon icon={faSwimmer}></FontAwesomeIcon></p>
+                    <p>Swimming</p>
                 </div>
                 <div className=''>
-                    <p><span className='text-2xl lg:text-3xl font-semibold'>5.7</span>in</p>
-                    <p>Height</p>
+                    <p className='text-5xl text-center text-orange-700'><FontAwesomeIcon icon={faHiking}></FontAwesomeIcon></p>
+                    <p>Hiking</p>
                 </div>
                 <div className=''>
-                    <p><span className='text-2xl lg:text-3xl font-semibold'>19</span>yrs</p>
-                    <p>Age</p>
+                    <p className='text-5xl text-center text-orange-700'><FontAwesomeIcon icon={faDisplay}></FontAwesomeIcon></p>
+                    <p>Codding</p>
                 </div>
             </div>
 
