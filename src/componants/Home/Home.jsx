@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Carts from '../Carts/Carts';
 import PersonalDetails from '../PersonalDetails/PersonalDetails';
+import Question from '../Question/Question';
 import Sidebar from '../Sidebar/Sidebar';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                 <div className='lg:w-3/4'>
                     <h4 className='mt-8 text-2xl font-semibold'>Select Today's Exercise</h4>
                     <Carts handleTime={handleTime} />
+                    <Question />
                 </div>
 
                 <div className='lg:w-1/4 bg-orange-200  p-3 lg:fixed lg:top-0 lg:right-0 h-full mt-8 lg:mt-0 rounded-xl lg:rounded-none'>
