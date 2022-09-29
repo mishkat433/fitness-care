@@ -21,7 +21,7 @@ const Home = () => {
 
                 <div className='lg:w-1/4 bg-orange-200  p-3 lg:fixed lg:top-0 lg:right-0 h-full mt-8 lg:mt-0 rounded-xl lg:rounded-none'>
                     <PersonalDetails />
-                    <Sidebar time={time} />
+                    <Sidebar time={time} setTime={setTime} />
                 </div>
             </div>
         </div>

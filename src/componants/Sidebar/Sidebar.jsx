@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Sidebar = ({ time }) => {
+const Sidebar = ({ time, setTime }) => {
     const [breaktime, setBreaktime] = useState(0);
 
     const breakHandle = (breakTime) => {
@@ -16,7 +16,15 @@ const Sidebar = ({ time }) => {
         }
 
     }
-    const notify = () => toast("Your activity successfully completed");
+    const notify = () => {
+        toast("Your activity successfully completed");
+
+        localStorage.setItem("break-time", 0);
+        setBreaktime(0);
+
+        setTime(0)
+    }
+
     return (
         <div className='mt-8'>
             <h1 className='text-xl lg:text-2xl font-semibold'>Add A Break</h1>
