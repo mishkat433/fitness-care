@@ -22,7 +22,7 @@ const Question = () => {
             </div>
             <div tabIndex={1} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
                 <div className="collapse-title text-xl font-medium">
-                    The use state is used for some other purpose than loading data?
+                    The useEffect is used for some other purpose than loading data?
                 </div>
                 <div className="collapse-content">
                     <p>We declare the count state variable, and then we tell React we need to use an effect. We pass a function to the useEffect Hook. This function we pass is our effect. Inside our effect, we set the document title using the document.title browser API. We can read the latest count inside the effect because it’s in the scope of our function. When React renders our component, it will remember the effect we used, and then run our effect after updating the DOM. This happens for every render, including the first one.</p>
